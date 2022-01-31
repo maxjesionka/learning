@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.appPanel{
+    padding: 20px 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  
+}
+.clipBoard{
+   padding: 10px 20px;
+}
+.clipBoard i{
+    margin-right:10px;
+    color: white;
+}
+.appPanel input{
+    padding: 4px;
+    width: 35px;
+    text-align: center;
+}
+.clipBoard textarea.clipNumbers{
+    padding: 0;
+    align-self: center;
+    margin-right: 5px;
+    width:120px;
+    text-align: center;
+    height: 1.3rem;
+}
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.startValue{
+    padding: 10px 20px;
+    border: none;
+}
+.appPanel p{
+    padding-bottom: 5px;
+    color: white;
+    
+}
+.appPanel.checkboxes{
+    padding: 5px 10px 10px;
+    width: 200px;
+    justify-content: space-around;
+
+}
+.appPanel .rgb{
+    text-align: center;
+    justify-content: center;
+}
+.rgb input{
+    cursor: pointer;
+}

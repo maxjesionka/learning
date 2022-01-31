@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    
+    background: linear-gradient(to bottom right, #e66465, #9198e5);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* position: relative; */
+}
+.timeSaved{
+    /* display: flex; */
+    position: absolute;
+    /* align-items: center; */
+    /* justify-content: end; */
+    padding: 5px 20px;
+    /* background-color: #fff; */
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.timerDisplay{
+    width: 40%;
+    background: linear-gradient(to top left, #e66465, #9198e5);
+    padding: 40px 60px;
+    border-radius: 20px;
+    /* align-items: center; */
+    /* align-self: center; */
+    text-align: center;
+}
+.timeDisplay{
+    margin-bottom: 30px;
+    font-size: 5rem;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: #e66465 0.5px solid;
+    background-color: #9198e5;
+}

@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "..\\Kurs Web Dev"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "assets"
+	}
+}

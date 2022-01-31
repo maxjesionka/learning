@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color APP</title>
+    <script src="https://kit.fontawesome.com/4609d482a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container" id="bgColor">
+       
+        <div class="appPanel">
+            <button class="btn" id="btnStart">START</button>
+            <input type="text" maxlength="3" class="startValue1" id="startingValue1" onblur="getVal1()">
+            <input type="text" maxlength="3" class="startValue2" id="startingValue2" onblur="getVal2()">
+            <input type="text" maxlength="3" class="startValue3" id="startingValue3" onblur="getVal3()">
+            <button class="btn" id="btnStop">STOP</button>
+        </div>
+        
+        <div class="appPanel checkboxes">
+            <div class="rgb"><p>red</p><input type="checkbox" name="red" id="CBXred"></div>
+            <div class="rgb"><p>green</p><input type="checkbox" name="green" id="CBXgreen"></div>
+            <div class="rgb"><p>blue</p><input type="checkbox" name="blue" id="CBXblue"></div>
+        </div>
+        <div class="appPanel clipBoard">
+            <textarea name="RGBcolors" class="clipNumbers" id="clipNumbers" placeholder="RGB(0,0,0)" readonly></textarea><button class="btn" onclick="copyToClip()"><i class="far fa-copy iCopy"></i>Copy</button>
+        </div>
+    </div>
+</body>
+</html>

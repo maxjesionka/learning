@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(lightning.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    font-family: 'Libre Baskerville', serif;
+
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: 7%;
+    
+}
+.countdown-container{
+    /* justify-content: center; */
+    color: white;
+    display: flex;
+    /* text-align: center; */
+    margin-top: 18%;
+    /* min-width: 100vw; */
+    font-family: arial;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+span{
+    font-family: 'Libre Baskerville', serif;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+   font-size: 1.5rem;
+}
