@@ -1,6 +1,6 @@
 # Hi I'm Max
 
-I'm 21-year-old graduate of a technical college in Computer Science. 
+I'm 23-year-old graduate of a technical college in Computer Science. 
 For 2 years I have been interested in programming, especially frontend development. 
 I learned mainly at home from various courses on Udemy.
 I created my own portfolio, which I develop all the time with new projects.
